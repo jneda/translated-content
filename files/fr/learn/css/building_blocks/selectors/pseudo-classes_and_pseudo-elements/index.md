@@ -60,7 +60,7 @@ Voyons cela dans un premier exemple. Pour agrandir et mettre en gras le texte du
 
 {{EmbedGHLiveSample("css-examples/learn/selectors/first-child.html", '100%', 800)}}
 
-Mais cette solution est difficile à maintenir — que se passe-t-il si un nouveau paragraphe est ajouté en haut du document ? Il faut dans ce cas déplacer manuellement la classe vers le nouveau paragraphe. Une solution plus souple est d'utiliser le sélecteur de pseudo-classe {{cssxref (": first-child")}} — cela cible *dans tous les cas* le premier élément enfant de l'article : plus nécessaire d'éditer le code HTML (particulièrement utile en particulier quand le code HTML est généré par un CMS.)
+Mais cette solution est difficile à maintenir — que se passe-t-il si un nouveau paragraphe est ajouté en haut du document ? Il faut dans ce cas déplacer manuellement la classe vers le nouveau paragraphe. Une solution plus souple est d'utiliser le sélecteur de pseudo-classe {{cssxref (":first-child")}} — cela cible *dans tous les cas* le premier élément enfant de l'article : plus nécessaire d'éditer le code HTML (particulièrement utile en particulier quand le code HTML est généré par un CMS.)
 
 {{EmbedGHLiveSample ("css-examples/learn/selectors/first-child2.html", '100%', 700)}}
 
